@@ -1,0 +1,79 @@
+body {
+    background-image: url(./Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#C_V{
+    font-size: 50px;
+    text-align: center;
+}
+
+#I_CV{
+    margin-top: 20%;
+    text-align: center;
+}
+
+#datos{
+    display: none;
+    text-align: center;
+}
+
+#F{
+    display: none;
+    text-align: center;
+}
+
+#InfoPersonal{
+    display: none;
+    text-align: center;
+    font-family: 'Solitreo', cursive;
+}
+
+#ForAcademica{
+    display: none;
+    text-align: center;
+    font-family: 'Solitreo', cursive;
+}
+
+#ExpLaboral{
+    display: none;
+    text-align: center;
+    font-family: 'Solitreo', cursive;
+}
+
+#inicioCV{
+    width: 40%;
+    border-radius: 50%;
+    color: white;
+    background-color: gray;
+}
+
+#I_P{
+    background-color: aquamarine;
+    height: 50%;
+    width: 30%;
+    border-radius: 60%;
+}
+
+#F_A{
+    background-color: aquamarine;
+    height: 50%;
+    width: 30%;
+    border-radius: 60%;
+}
+
+#E_L{
+    background-color: aquamarine;
+    height: 50%;
+    width: 30%;
+    border-radius: 60%;
+}
+
+#foto{
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+}

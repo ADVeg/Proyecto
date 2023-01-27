@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <meta property="og:title" content="Curriculum Vitae" />
+    <meta property="og:type" content="Datos" />
+    <meta property="og:url" content=" http://www.example.com" />
+    <meta property="og:image" content=" http://example.com/image.jpg" />
+    <meta property="og:description" content="Curriculum Vitae" />
+
+    <link rel="stylesheet" href="CSS/Diseño.css">
+    <link rel="icon" href="CSS/Imagenes/icono.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div id="C_V">
+        <h1><STrong>CURRICULUM VITAE</STrong></h1>
+    </div>
+
+    <div id="F"> <!--CARGAR FOTO-->
+        <img id="foto" src="" alt="La imagen no se cargo correctamente">
+    </div>
+
+    <div id="datos">    <!--BOTONES PARA VER INFORMACION-->
+        <tr>
+            <th><button type="button" id="I_P">INFORMACION PERSONAL</button></th>
+            <th><button type="button" id="F_A">FORMACION ACADEMICA</button></th>
+            <th><button type="button" id="E_L">EXPERIENCIA LABORAL</button></th>
+        </tr>
+    </div>
+
+    <div id="InfoPersonal"> <!--INFORMACION PERSONAL-->
+        <p>Nombre y apellido: <span id="nom_ape"></span></p>
+        <p>Fecha de Nacimiento: <samp id="fecha_nac"></samp></p>
+        <p>Genero: <span id="genero"></span></p>
+        <p>Direccion: <span id="direccion"></span></p>
+        <p>Codigo Postal: <span id="cod_post"></span></p>
+        <p>Celular: <span id="cel"></span></p>
+        <p>E-Mail: <span id="mail"></span></p>
+    </div>
+
+    <div id="ForAcademica"> <!--FORMACION ACADEMICA-->
+        <div>Primario completo:<p>Escuela de Nivel Inicial (ENI) N° 14 Maestra Berta Rinaudi de García</p></div>
+        <div>Secundario Completo:<p>Instituto Privado Aleluya - Niveles Primario y Secundario</Completo:p></div>
+        <div>Universidad Completo:<p>ULP Virtual (Universidad de La Punta - ULP)</p></div>
+    </div>
+
+    <div id="ExpLaboral">   <!--EXPERIENCIA LABORAL-->
+        <p>Cajero (2 años)</p>
+        <p>Vigilante (3años)</p>
+        <p>Repositor (3 años)</p>
+        <p>Administrativo (1 año)</p>
+    </div>
+
+    <div id="I_CV">
+        <button type="button" id="inicioCV">CONTINUAR</button>
+    </div>
+
+    <script src="JS/Datos.js"></script>
+</body>
+</html>
