@@ -21,7 +21,7 @@ document.getElementById('E_L').addEventListener('click',function () {
 function completarInfoPersonal() {
     document.getElementById('nom_ape').innerHTML=info.name.first+' '+info.name.last;
     document.getElementById('fecha_nac').innerHTML=info.dob.date.substring(0,10);
-    document.getElementById('genero').innerHTML=info.name.first+' '+info.gender;
+    document.getElementById('genero').innerHTML=info.gender;
     document.getElementById('direccion').innerHTML=info.location.city+', '+info.location.state+', '+info.location.country;
     document.getElementById('cod_post').innerHTML=info.location.postcode;
     document.getElementById('cel').innerHTML=info.cell;

@@ -1,4 +1,4 @@
-body {  /*IMAGEN DE FONDO*/
+body {
     background-image: url(./Imagenes/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -6,45 +6,42 @@ body {  /*IMAGEN DE FONDO*/
     background-attachment: fixed;
 }
 
-#C_V{   /*ESTILO TITULO CV*/
+#C_V{
     font-size: 50px;
     text-align: center;
 }
 
-#I_CV{  /*ESTILO BOTON VER CV*/
+#I_CV{
     margin-top: 20%;
     text-align: center;
 }
 
-#datos{ /*ESTILO CONTENEDOR BOTONES INFORMACION CV*/
+#datos{
     display: none;
     text-align: center;
 }
 
-#F{ /*ESTILO CONTENEDOR FOTO*/
+#F{
     display: none;
     text-align: center;
 }
 
-#InfoPersonal{  /*ESTILO INFORMACION PERSONAL*/
+#InfoPersonal{
     display: none;
     text-align: center;
     font-family: 'Solitreo', cursive;
-    border: 15px solid rgba(0, 0, 0, 0.0);
 }
 
 #ForAcademica{
     display: none;
     text-align: center;
     font-family: 'Solitreo', cursive;
-    border: 15px solid rgba(0, 0, 0, 0.0);
 }
 
 #ExpLaboral{
     display: none;
     text-align: center;
     font-family: 'Solitreo', cursive;
-    border: 15px solid rgba(0, 0, 0, 0.0);
 }
 
 #inicioCV{
